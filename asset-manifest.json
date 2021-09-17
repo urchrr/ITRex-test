@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/ITRex-test/static/css/main.865aac1e.chunk.css",
-    "main.js": "/ITRex-test/static/js/main.b160a92b.chunk.js",
-    "main.js.map": "/ITRex-test/static/js/main.b160a92b.chunk.js.map",
+    "main.css": "/ITRex-test/static/css/main.f733565e.chunk.css",
+    "main.js": "/ITRex-test/static/js/main.706993e2.chunk.js",
+    "main.js.map": "/ITRex-test/static/js/main.706993e2.chunk.js.map",
     "runtime-main.js": "/ITRex-test/static/js/runtime-main.1bc3ae06.js",
     "runtime-main.js.map": "/ITRex-test/static/js/runtime-main.1bc3ae06.js.map",
     "static/js/2.1ac51ca1.chunk.js": "/ITRex-test/static/js/2.1ac51ca1.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.ca08a54a.chunk.js": "/ITRex-test/static/js/3.ca08a54a.chunk.js",
     "static/js/3.ca08a54a.chunk.js.map": "/ITRex-test/static/js/3.ca08a54a.chunk.js.map",
     "index.html": "/ITRex-test/index.html",
-    "static/css/main.865aac1e.chunk.css.map": "/ITRex-test/static/css/main.865aac1e.chunk.css.map",
+    "static/css/main.f733565e.chunk.css.map": "/ITRex-test/static/css/main.f733565e.chunk.css.map",
     "static/js/2.1ac51ca1.chunk.js.LICENSE.txt": "/ITRex-test/static/js/2.1ac51ca1.chunk.js.LICENSE.txt",
     "static/media/index.css": "/ITRex-test/static/media/Inter-Regular.e148c4a1.woff"
   },
   "entrypoints": [
     "static/js/runtime-main.1bc3ae06.js",
     "static/js/2.1ac51ca1.chunk.js",
-    "static/css/main.865aac1e.chunk.css",
-    "static/js/main.b160a92b.chunk.js"
+    "static/css/main.f733565e.chunk.css",
+    "static/js/main.706993e2.chunk.js"
   ]
 }
