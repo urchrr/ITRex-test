@@ -7,7 +7,7 @@ const TableRow = ({data, onClick}) => {
         onClick(data)
     }
     return (
-        <tr onClick={handleClick}>
+        <tr onClick={handleClick} className={'table-row'}>
             <td>{id}</td>
             <td>{firstName}</td>
             <td>{lastName}</td>
