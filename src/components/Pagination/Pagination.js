@@ -1,12 +1,19 @@
 import './Pagination.css'
 
-const Pagination = ({data, onClick}) => {
+const Pagination = ({data, onClick, currentPage}) => {
     return (
-        <div>
-            <button onClick={onClick} name={'previousPage'}>Previous</button>
-            {data.map(i => <button value={i} onClick={onClick} name={`page-${i}`}>{i}</button>)}
-            <button onClick={onClick} name={'nextPage'}>Next</button>
-        </div>
+        <ul className={'pagination'}>
+            <li className={'pagination__li'}>
+                <button className={'pagination__button'} onClick={onClick} name={'previousPage'}>Previous</button>
+            </li>
+            {data.map(i => <li className={'pagination__li'}>
+                <button className={`pagination__button ${currentPage === i ? 'active' : ''}`} value={i}
+                        onClick={onClick} name={`page-${i}`}>{i}</button>
+            </li>)}
+            <li className={'pagination__li'}>
+                <button className={'pagination__button'} onClick={onClick} name={'nextPage'}>Next</button>
+            </li>
+        </ul>
     )
 }
 

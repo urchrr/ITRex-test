@@ -134,7 +134,7 @@ function App() {
         <div className={'page'}>
             <div className={'app'}>
                 <label className={'app__search'}>Search by name: <input type="text" name={'name'}
-                                                                        autoComplete={false}
+                                                                        autoComplete={'off'}
                                                                         className={'app__search_input'}
                                                                         onChange={handleChange}/></label>
                 <label className={'app__state'}>Filter by state:
@@ -171,7 +171,8 @@ function App() {
                     }
                     </tbody>
                 </table>
-                <div className={'app__pagination'}><Pagination onClick={handlePageChange} data={pages()}/></div>
+                <div className={'app__pagination'}><Pagination onClick={handlePageChange} data={pages()}
+                                                               currentPage={currentPage}/></div>
                 <div className={'app__infoForm'}><InfoForm data={formValues}/></div>
             </div>
         </div>

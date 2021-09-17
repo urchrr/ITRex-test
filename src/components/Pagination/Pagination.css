@@ -1,0 +1,32 @@
+.pagination__button {
+    color: #000000;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+}
+
+.pagination__button:hover {
+    color: #024dbc;
+    background-color: #e9ecef;
+    border-color: #dee2e6;
+}
+
+.pagination__button:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(251, 251, 252, 0.25);
+}
+.pagination__button.active{
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.pagination__li {
+
+}

@@ -4,7 +4,7 @@ const InfoForm = ({data}) => {
     const {adress, description, firstName, lastName} = data
     const {zip, state, city, streetAddress} = adress
     return (
-        <div>
+        <div className={'infoForm'}>
             <h3>Profile info: </h3>
             <ul className={'infoForm__list'}>
                 <li className={'infoForm__li'}><span>Selected profile:</span> {firstName + ' ' + lastName}</li>

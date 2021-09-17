@@ -1,5 +1,14 @@
-.infoForm__list{
+.infoForm__list {
     list-style: none;
     align-self: start;
     padding-left: 0;
+}
+
+.infoForm__li {
+    margin-bottom: 5px;
+}
+
+.infoForm {
+    border: 1px solid white;
+    box-shadow: 0px 0px 25px rgba(180, 168, 168, 0.34);
 }
