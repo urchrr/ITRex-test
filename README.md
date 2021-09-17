@@ -10,7 +10,7 @@ In the project directory, you can run:
 ### `npm run build`
 
 ### Link to hosted app 
-(https://urchrr.github.io/ITRex-test/)
+[Link](https://urchrr.github.io/ITRex-test/)
 
 
 
