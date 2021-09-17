@@ -75,7 +75,7 @@ function App() {
         return 0;
     })
 
-    //ascending a -> z, descending z -> a
+    // ascending a -> z, descending z -> a
     const Chevron = ({id}) => {
         const {column, ascending} = sortValues
         const qt = id === column ? ascending : false;
@@ -140,7 +140,7 @@ function App() {
                 <label className={'app__state'}>Filter by state:
                     <select name={'state'} onChange={handleChange} className={'app__state_input'}>
                         <option value={''}>---</option>
-                        {getStates(data).map(i => <option value={i}>{i}</option>)}
+                        {getStates(data).map(i => <option value={i} key={i}>{i}</option>)}
                     </select>
                 </label>
                 <table border={1} className={'app__table'}>
@@ -156,7 +156,7 @@ function App() {
                                 'adress.state': 'State'
                             })
                                 .map(([key, value]) =>
-                                    <td onClick={handleSorting} id={key}>{value} <Chevron id={key}/></td>
+                                    <td onClick={handleSorting} id={key} key={key}>{value} <Chevron id={key}/></td>
                                 )}
                     </tr>
                     </thead>
